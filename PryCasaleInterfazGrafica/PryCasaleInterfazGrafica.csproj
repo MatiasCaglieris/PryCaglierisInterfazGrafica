@@ -70,6 +70,12 @@
     <Compile Include="FrmEtiquetas.Designer.cs">
       <DependentUpon>FrmEtiquetas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFarmacia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFarmacia.Designer.cs">
+      <DependentUpon>frmFarmacia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBoton.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEtiquetas.resx">
       <DependentUpon>FrmEtiquetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFarmacia.resx">
+      <DependentUpon>frmFarmacia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
