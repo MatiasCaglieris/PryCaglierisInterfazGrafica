@@ -16,5 +16,10 @@ namespace PryCasaleInterfazGrafica
         {
             InitializeComponent();
         }
+
+        private void frmFarmacia_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

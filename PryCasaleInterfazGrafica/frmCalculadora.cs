@@ -16,5 +16,19 @@ namespace PryCasaleInterfazGrafica
         {
             InitializeComponent();
         }
+
+        private void buttonCalcular_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void LabelNumero2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmCalculadora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

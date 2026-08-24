@@ -39,6 +39,7 @@
             this.buttonRestar = new System.Windows.Forms.Button();
             this.labelResultado = new System.Windows.Forms.Label();
             this.txtResultado = new System.Windows.Forms.TextBox();
+            this.buttonCalcular = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LabelNumero1
@@ -57,9 +58,10 @@
             this.LabelNumero2.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelNumero2.Location = new System.Drawing.Point(81, 119);
             this.LabelNumero2.Name = "LabelNumero2";
-            this.LabelNumero2.Size = new System.Drawing.Size(137, 33);
+            this.LabelNumero2.Size = new System.Drawing.Size(144, 33);
             this.LabelNumero2.TabIndex = 1;
-            this.LabelNumero2.Text = "Numero2 :";
+            this.LabelNumero2.Text = "Numero 2 :";
+            this.LabelNumero2.Click += new System.EventHandler(this.LabelNumero2_Click);
             // 
             // textNumero1
             // 
@@ -137,16 +139,27 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(262, 326);
+            this.txtResultado.Location = new System.Drawing.Point(250, 326);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(106, 20);
             this.txtResultado.TabIndex = 10;
+            // 
+            // buttonCalcular
+            // 
+            this.buttonCalcular.Location = new System.Drawing.Point(503, 267);
+            this.buttonCalcular.Name = "buttonCalcular";
+            this.buttonCalcular.Size = new System.Drawing.Size(106, 51);
+            this.buttonCalcular.TabIndex = 11;
+            this.buttonCalcular.Text = "Calcular";
+            this.buttonCalcular.UseVisualStyleBackColor = true;
+            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
             // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonCalcular);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.labelResultado);
             this.Controls.Add(this.buttonRestar);
@@ -159,7 +172,8 @@
             this.Controls.Add(this.LabelNumero2);
             this.Controls.Add(this.LabelNumero1);
             this.Name = "frmCalculadora";
-            this.Text = "Numero 2";
+            this.Text = "frmCalculadora";
+            this.Load += new System.EventHandler(this.frmCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +192,6 @@
         private System.Windows.Forms.Button buttonRestar;
         private System.Windows.Forms.Label labelResultado;
         private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Button buttonCalcular;
     }
 }

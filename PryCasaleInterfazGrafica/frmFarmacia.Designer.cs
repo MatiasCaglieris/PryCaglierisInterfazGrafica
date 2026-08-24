@@ -187,6 +187,7 @@
             this.Controls.Add(this.labelFarmacia);
             this.Name = "frmFarmacia";
             this.Text = "Farmacia Farmacity";
+            this.Load += new System.EventHandler(this.frmFarmacia_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

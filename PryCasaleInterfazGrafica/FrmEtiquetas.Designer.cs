@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.Nombre = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textNombre = new System.Windows.Forms.TextBox();
+            this.textApellido = new System.Windows.Forms.TextBox();
             this.Apellido = new System.Windows.Forms.Label();
             this.Edad = new System.Windows.Forms.Label();
             this.Carrera = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textEdad = new System.Windows.Forms.TextBox();
+            this.textCarrera = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Nombre
@@ -48,19 +48,19 @@
             this.Nombre.TabIndex = 0;
             this.Nombre.Text = "Nombre";
             // 
-            // textBox1
+            // textNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(165, 66);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.textNombre.Location = new System.Drawing.Point(165, 66);
+            this.textNombre.Name = "textNombre";
+            this.textNombre.Size = new System.Drawing.Size(100, 20);
+            this.textNombre.TabIndex = 1;
             // 
-            // textBox2
+            // textApellido
             // 
-            this.textBox2.Location = new System.Drawing.Point(165, 115);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 2;
+            this.textApellido.Location = new System.Drawing.Point(165, 115);
+            this.textApellido.Name = "textApellido";
+            this.textApellido.Size = new System.Drawing.Size(100, 20);
+            this.textApellido.TabIndex = 2;
             // 
             // Apellido
             // 
@@ -92,32 +92,32 @@
             this.Carrera.TabIndex = 5;
             this.Carrera.Text = "Carrera";
             // 
-            // textBox3
+            // textEdad
             // 
-            this.textBox3.Location = new System.Drawing.Point(165, 162);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.textEdad.Location = new System.Drawing.Point(165, 162);
+            this.textEdad.Name = "textEdad";
+            this.textEdad.Size = new System.Drawing.Size(100, 20);
+            this.textEdad.TabIndex = 6;
             // 
-            // textBox4
+            // textCarrera
             // 
-            this.textBox4.Location = new System.Drawing.Point(165, 203);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.textCarrera.Location = new System.Drawing.Point(165, 203);
+            this.textCarrera.Name = "textCarrera";
+            this.textCarrera.Size = new System.Drawing.Size(100, 20);
+            this.textCarrera.TabIndex = 7;
             // 
             // InterfazGrafica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textCarrera);
+            this.Controls.Add(this.textEdad);
             this.Controls.Add(this.Carrera);
             this.Controls.Add(this.Edad);
             this.Controls.Add(this.Apellido);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textApellido);
+            this.Controls.Add(this.textNombre);
             this.Controls.Add(this.Nombre);
             this.Name = "InterfazGrafica";
             this.Text = "Interfaz Grafica / Etiquetas - Label";
@@ -130,13 +130,13 @@
         #endregion
 
         private System.Windows.Forms.Label Nombre;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textNombre;
+        private System.Windows.Forms.TextBox textApellido;
         private System.Windows.Forms.Label Apellido;
         private System.Windows.Forms.Label Edad;
         private System.Windows.Forms.Label Carrera;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textEdad;
+        private System.Windows.Forms.TextBox textCarrera;
     }
 }
 
