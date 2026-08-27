@@ -142,8 +142,9 @@
             // labelRegistro
             // 
             this.labelRegistro.AutoSize = true;
+            this.labelRegistro.BackColor = System.Drawing.Color.Transparent;
             this.labelRegistro.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRegistro.Location = new System.Drawing.Point(12, 9);
+            this.labelRegistro.Location = new System.Drawing.Point(297, 9);
             this.labelRegistro.Name = "labelRegistro";
             this.labelRegistro.Size = new System.Drawing.Size(139, 39);
             this.labelRegistro.TabIndex = 10;
@@ -152,9 +153,9 @@
             // lstDatos
             // 
             this.lstDatos.FormattingEnabled = true;
-            this.lstDatos.Location = new System.Drawing.Point(78, 341);
+            this.lstDatos.Location = new System.Drawing.Point(12, 322);
             this.lstDatos.Name = "lstDatos";
-            this.lstDatos.Size = new System.Drawing.Size(368, 186);
+            this.lstDatos.Size = new System.Drawing.Size(231, 121);
             this.lstDatos.TabIndex = 11;
             this.lstDatos.SelectedIndexChanged += new System.EventHandler(this.lstDatos_SelectedIndexChanged);
             // 
@@ -163,7 +164,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(644, 592);
+            this.ClientSize = new System.Drawing.Size(537, 511);
             this.Controls.Add(this.lstDatos);
             this.Controls.Add(this.labelRegistro);
             this.Controls.Add(this.lblMensaje);

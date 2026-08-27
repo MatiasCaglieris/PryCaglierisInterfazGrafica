@@ -26,7 +26,14 @@ namespace PryCasaleInterfazGrafica
             string carrera = txtCarrera.Text;
 
             //mensajes
-            lblMensaje.Text = $"hola soy {Nombre} {Apellido} tengo {Edad} años y estudio {carrera}";  
+            lblMensaje.Text = $"hola soy {Nombre} {Apellido} tengo {Edad} años y estudio {carrera}";
+
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtEdad.Clear();
+            txtCarrera.Clear();
+
+            txtNombre.Focus();
         }
 
         private void frmBoton_Load(object sender, EventArgs e)

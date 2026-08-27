@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConversorUnidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversorUnidades.Designer.cs">
+      <DependentUpon>ConversorUnidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBoton.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,8 +82,23 @@
     <Compile Include="frmFarmacia.Designer.cs">
       <DependentUpon>frmFarmacia.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroAlumno.Designer.cs">
+      <DependentUpon>frmRegistroAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConversorUnidades.resx">
+      <DependentUpon>ConversorUnidades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBoton.resx">
       <DependentUpon>frmBoton.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmFarmacia.resx">
       <DependentUpon>frmFarmacia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroAlumno.resx">
+      <DependentUpon>frmRegistroAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
