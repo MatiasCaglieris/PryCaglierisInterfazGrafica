@@ -52,6 +52,12 @@
     <Compile Include="ConversorUnidades.Designer.cs">
       <DependentUpon>ConversorUnidades.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAgendadeContactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgendadeContactos.Designer.cs">
+      <DependentUpon>frmAgendadeContactos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBoton.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ConversorUnidades.resx">
       <DependentUpon>ConversorUnidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgendadeContactos.resx">
+      <DependentUpon>frmAgendadeContactos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBoton.resx">
       <DependentUpon>frmBoton.cs</DependentUpon>
