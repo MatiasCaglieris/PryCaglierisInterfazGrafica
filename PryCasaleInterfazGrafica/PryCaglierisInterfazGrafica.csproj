@@ -100,6 +100,12 @@
     <Compile Include="frmRegistroAlumno.Designer.cs">
       <DependentUpon>frmRegistroAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSistemasdeVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSistemasdeVentas.Designer.cs">
+      <DependentUpon>frmSistemasdeVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ConversorUnidades.resx">
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistroAlumno.resx">
       <DependentUpon>frmRegistroAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSistemasdeVentas.resx">
+      <DependentUpon>frmSistemasdeVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
