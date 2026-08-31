@@ -16,7 +16,7 @@ namespace PryCasaleInterfazGrafica
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmRegistroAlumno
+            Application.Run(new FormConversor
                 ());
         }
     }

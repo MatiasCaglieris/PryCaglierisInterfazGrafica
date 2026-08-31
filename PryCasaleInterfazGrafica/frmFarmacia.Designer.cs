@@ -117,7 +117,7 @@
             // buttonAlmacenar
             // 
             this.buttonAlmacenar.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.buttonAlmacenar.Location = new System.Drawing.Point(395, 261);
+            this.buttonAlmacenar.Location = new System.Drawing.Point(424, 355);
             this.buttonAlmacenar.Name = "buttonAlmacenar";
             this.buttonAlmacenar.Size = new System.Drawing.Size(127, 83);
             this.buttonAlmacenar.TabIndex = 7;

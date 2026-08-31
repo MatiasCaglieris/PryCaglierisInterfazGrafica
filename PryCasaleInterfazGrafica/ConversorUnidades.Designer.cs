@@ -30,103 +30,109 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormConversor));
             this.labelTitulo = new System.Windows.Forms.Label();
-            this.lblValor = new System.Windows.Forms.Label();
-            this.txtValor = new System.Windows.Forms.TextBox();
+            this.lblkilometros = new System.Windows.Forms.Label();
+            this.txtKilometros = new System.Windows.Forms.TextBox();
             this.lblDesde = new System.Windows.Forms.Label();
             this.lblHacia = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMetros = new System.Windows.Forms.TextBox();
+            this.txtCentimetros = new System.Windows.Forms.TextBox();
             this.btnConvertir = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.labelresultadoo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelTitulo
             // 
             this.labelTitulo.AutoSize = true;
             this.labelTitulo.Font = new System.Drawing.Font("MS Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitulo.Location = new System.Drawing.Point(178, 25);
+            this.labelTitulo.Location = new System.Drawing.Point(158, 22);
             this.labelTitulo.Name = "labelTitulo";
             this.labelTitulo.Size = new System.Drawing.Size(147, 27);
             this.labelTitulo.TabIndex = 0;
             this.labelTitulo.Text = "Conversor";
             // 
-            // lblValor
+            // lblkilometros
             // 
-            this.lblValor.AutoSize = true;
-            this.lblValor.Font = new System.Drawing.Font("MS Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValor.Location = new System.Drawing.Point(41, 91);
-            this.lblValor.Name = "lblValor";
-            this.lblValor.Size = new System.Drawing.Size(79, 19);
-            this.lblValor.TabIndex = 1;
-            this.lblValor.Text = "Valor :";
+            this.lblkilometros.AutoSize = true;
+            this.lblkilometros.Font = new System.Drawing.Font("MS Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblkilometros.Location = new System.Drawing.Point(34, 88);
+            this.lblkilometros.Name = "lblkilometros";
+            this.lblkilometros.Size = new System.Drawing.Size(109, 19);
+            this.lblkilometros.TabIndex = 1;
+            this.lblkilometros.Text = "Kilometros";
             // 
-            // txtValor
+            // txtKilometros
             // 
-            this.txtValor.Location = new System.Drawing.Point(170, 87);
-            this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(155, 20);
-            this.txtValor.TabIndex = 2;
+            this.txtKilometros.Location = new System.Drawing.Point(163, 87);
+            this.txtKilometros.Name = "txtKilometros";
+            this.txtKilometros.Size = new System.Drawing.Size(155, 20);
+            this.txtKilometros.TabIndex = 2;
+            this.txtKilometros.TextChanged += new System.EventHandler(this.txtValor_TextChanged);
             // 
             // lblDesde
             // 
             this.lblDesde.AutoSize = true;
             this.lblDesde.Font = new System.Drawing.Font("MS Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesde.Location = new System.Drawing.Point(40, 187);
+            this.lblDesde.Location = new System.Drawing.Point(33, 145);
             this.lblDesde.Name = "lblDesde";
-            this.lblDesde.Size = new System.Drawing.Size(79, 19);
+            this.lblDesde.Size = new System.Drawing.Size(89, 19);
             this.lblDesde.TabIndex = 3;
-            this.lblDesde.Text = "Desde :";
+            this.lblDesde.Text = "Metros :";
             // 
             // lblHacia
             // 
             this.lblHacia.AutoSize = true;
             this.lblHacia.Font = new System.Drawing.Font("MS Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHacia.Location = new System.Drawing.Point(40, 235);
+            this.lblHacia.Location = new System.Drawing.Point(33, 193);
             this.lblHacia.Name = "lblHacia";
-            this.lblHacia.Size = new System.Drawing.Size(99, 19);
+            this.lblHacia.Size = new System.Drawing.Size(119, 19);
             this.lblHacia.TabIndex = 4;
-            this.lblHacia.Text = "Hacia :  ";
+            this.lblHacia.Text = "Centimetros";
             // 
-            // textBox1
+            // txtMetros
             // 
-            this.textBox1.Location = new System.Drawing.Point(170, 185);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(155, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtMetros.Location = new System.Drawing.Point(163, 143);
+            this.txtMetros.Name = "txtMetros";
+            this.txtMetros.Size = new System.Drawing.Size(155, 20);
+            this.txtMetros.TabIndex = 5;
+            this.txtMetros.TextChanged += new System.EventHandler(this.textMetros_TextChanged);
             // 
-            // textBox2
+            // txtCentimetros
             // 
-            this.textBox2.Location = new System.Drawing.Point(170, 237);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(155, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtCentimetros.Location = new System.Drawing.Point(163, 195);
+            this.txtCentimetros.Name = "txtCentimetros";
+            this.txtCentimetros.Size = new System.Drawing.Size(155, 20);
+            this.txtCentimetros.TabIndex = 6;
+            this.txtCentimetros.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // btnConvertir
             // 
-            this.btnConvertir.Location = new System.Drawing.Point(98, 286);
+            this.btnConvertir.Location = new System.Drawing.Point(91, 244);
             this.btnConvertir.Name = "btnConvertir";
             this.btnConvertir.Size = new System.Drawing.Size(188, 58);
             this.btnConvertir.TabIndex = 7;
             this.btnConvertir.Text = "[CONVERTIR]";
             this.btnConvertir.UseVisualStyleBackColor = true;
+            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("MS Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(41, 381);
+            this.lblResultado.Location = new System.Drawing.Point(34, 339);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(119, 19);
             this.lblResultado.TabIndex = 8;
             this.lblResultado.Text = "RESULTADO :";
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
-            // textBox3
+            // labelresultadoo
             // 
-            this.textBox3.Location = new System.Drawing.Point(170, 380);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(155, 20);
-            this.textBox3.TabIndex = 9;
+            this.labelresultadoo.AutoSize = true;
+            this.labelresultadoo.Location = new System.Drawing.Point(187, 344);
+            this.labelresultadoo.Name = "labelresultadoo";
+            this.labelresultadoo.Size = new System.Drawing.Size(0, 13);
+            this.labelresultadoo.TabIndex = 9;
             // 
             // FormConversor
             // 
@@ -134,15 +140,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(640, 580);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.labelresultadoo);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnConvertir);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCentimetros);
+            this.Controls.Add(this.txtMetros);
             this.Controls.Add(this.lblHacia);
             this.Controls.Add(this.lblDesde);
-            this.Controls.Add(this.txtValor);
-            this.Controls.Add(this.lblValor);
+            this.Controls.Add(this.txtKilometros);
+            this.Controls.Add(this.lblkilometros);
             this.Controls.Add(this.labelTitulo);
             this.Name = "FormConversor";
             this.Text = "Conversor de Unidades";
@@ -155,14 +161,14 @@
         #endregion
 
         private System.Windows.Forms.Label labelTitulo;
-        private System.Windows.Forms.Label lblValor;
-        private System.Windows.Forms.TextBox txtValor;
+        private System.Windows.Forms.Label lblkilometros;
+        private System.Windows.Forms.TextBox txtKilometros;
         private System.Windows.Forms.Label lblDesde;
         private System.Windows.Forms.Label lblHacia;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMetros;
+        private System.Windows.Forms.TextBox txtCentimetros;
         private System.Windows.Forms.Button btnConvertir;
         private System.Windows.Forms.Label lblResultado;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label labelresultadoo;
     }
 }

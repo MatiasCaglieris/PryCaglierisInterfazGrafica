@@ -21,5 +21,19 @@ namespace PryCasaleInterfazGrafica
         {
 
         }
+
+        private void lstboxRegistro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void txtbNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

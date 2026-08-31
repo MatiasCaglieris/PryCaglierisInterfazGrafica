@@ -30,5 +30,47 @@ namespace PryCasaleInterfazGrafica
         {
 
         }
+
+        private void buttonSumar_Click(object sender, EventArgs e)
+        {
+            double numero1 = double.Parse(txtNumero1.Text);
+            double numero2 = double.Parse(txtNumero2.Text);
+            double resultado = numero1 + numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
+        private void textNumero2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonRestar_Click(object sender, EventArgs e)
+        {
+            double numero1 = double.Parse(txtNumero1.Text);
+            double numero2 = double.Parse(txtNumero2.Text);
+            double resultado = numero1 - numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
+        private void buttonDividir_Click(object sender, EventArgs e)
+        {
+            double numero1 = double.Parse(txtNumero1.Text); 
+            double numero2 = double.Parse(txtNumero2.Text);
+            double resultado = numero1 / numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
+        private void buttonMultiplicar_Click(object sender, EventArgs e)
+        {
+            double numero1 = double.Parse(txtNumero1.Text);
+            double numero2 = double.Parse(txtNumero2.Text);
+            double resultado = numero1 * numero2;
+
+            lblresultado.Text = resultado.ToString();
+
+        }
     }
 }

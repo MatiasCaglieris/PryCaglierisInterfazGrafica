@@ -85,6 +85,7 @@
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnEliminar
             // 
@@ -113,6 +114,7 @@
             this.txtbNombre.Name = "txtbNombre";
             this.txtbNombre.Size = new System.Drawing.Size(100, 20);
             this.txtbNombre.TabIndex = 6;
+            this.txtbNombre.TextChanged += new System.EventHandler(this.txtbNombre_TextChanged);
             // 
             // txtbTelefono
             // 
@@ -128,6 +130,7 @@
             this.lstboxRegistro.Name = "lstboxRegistro";
             this.lstboxRegistro.Size = new System.Drawing.Size(302, 121);
             this.lstboxRegistro.TabIndex = 8;
+            this.lstboxRegistro.SelectedIndexChanged += new System.EventHandler(this.lstboxRegistro_SelectedIndexChanged);
             // 
             // frmAgendadeContactos
             // 
